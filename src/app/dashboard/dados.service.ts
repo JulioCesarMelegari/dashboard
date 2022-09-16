@@ -17,7 +17,7 @@ export class DadosService {
 
   constructor() { }
 
-  oberDados():Observable<any>{
+  obterDados():Observable<any>{
     return new Observable(observable =>{
       observable.next(this.dados);
       observable.complete();
